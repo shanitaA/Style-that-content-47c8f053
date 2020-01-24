@@ -1,0 +1,52 @@
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	border-style: solid;
+	border-color: #FFA500;
+	background-color: #FFA500;
+}
+
+.content{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	background-color: #F5CB9A;
+
+}
+
+.news{
+	width: 33%;
+}
+
+.content>h1{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+
+}
+.content>p{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#breaking{
+	display: flex;
+	font-size: 20px;
+	order: -2;
+	flex-direction: column;
+	width: 50%;
+
+}
+
+#breaking>h3{
+	display: flex;
+	width: 100%;
+	order: -2;
+	font-size: 50px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
